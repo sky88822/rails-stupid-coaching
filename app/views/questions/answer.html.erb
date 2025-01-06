@@ -1,0 +1,14 @@
+<div class="container mt-5">
+  <div class="card shadow-sm p-4">
+    <h1 class="text-primary mb-3">Answer</h1>
+    <p class="lead font-weight-bold">
+      Question: <%= @question %>
+    </p>
+    <p class="text-success">
+      Answer: <%= @answer %>
+    </p>
+    <div class="mt-4">
+      <%= link_to "Ask a new question", ask_path, class: "btn btn-primary" %>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+<div class="container mt-5">
+  <div class="card shadow-sm p-4">
+    <h1 class="text-primary mb-4">Ask a Question</h1>
+
+    <form action="/answer" method="get" data-turbo="false">
+      <div class="mb-3">
+        <input
+          type="text"
+          name="question"
+          placeholder="Enter your question"
+          class="form-control"
+        >
+      </div>
+      <input
+        type="submit"
+        value="Ask!"
+        class="btn btn-primary"
+      >
+    </form>
+  </div>
+</div>
